@@ -1,3 +1,15 @@
+Projek ini dibentuk menggunakan ReactJS.
+
+Untuk memulai menjalankan aplikasi, buka terminal pada direktori projek dan jalankan perintah:
+
+### `npm start`
+
+Kemudian jalankan aplikasi pada mode pengembangan.
+
+buka [http://localhost:3000](http://localhost:3000) untuk melihatnya pada browser.
+
+-------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
