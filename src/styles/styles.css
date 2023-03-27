@@ -545,6 +545,72 @@ body {
     color: #6441a5;
   }
 
+.gamePage {
+  height: 100%;
+  background: #9C835F;
+}
+
+  .gamePage .logo-img {
+    width: 55%;
+  }
+
+  .gamePage .header-text {
+    color: #F9B23D;
+  }
+
+  .gamePage .vs-text {
+    margin-top: 35vh;
+    color: red;
+    font-style: bold;
+  }
+
+  .gamePage .gesture-container {
+    margin-block: 3.35vh;
+  }
+
+  .gamePage .gesture-container-com {
+    margin-block: 3.35vh;
+  }
+
+  .gamePage .gesture-img {
+    width: 25%;
+    margin-top: 4vh;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .gamePage .gesture-container:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  .gamePage .gesture-container.active .gesture-img {
+    border-radius: 20px;
+    border: 3px solid transparent;
+    background-color: #c4c4c4;
+  }
+  
+  .gamePage .gesture-container-com.active .gesture-img {
+    border-radius: 20px;
+    border: 3px solid transparent;
+    background-color: #c4c4c4;
+  }
+
+  .result-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  .reset-img {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    cursor: pointer;
+    width: 6%;
+  }
+
 @media screen and (max-width: 768px) {
   .game-feat {
     flex-direction: column;
